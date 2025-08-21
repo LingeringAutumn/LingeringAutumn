@@ -15,11 +15,14 @@
   </p>
 
   <p>
-    <b>主要技术栈 · Tech Stack</b><br/>
+    <b>主要技术栈 · Tech Stack</b>
+    <br/>
     <code>Go</code> · 
     <code>Python</code> · <code>Hertz</code> · <code>Kitex</code> · <code>Echo</code> ·
     <code>gRPC</code> · <code>Redis</code> ·
-    <code>Kafka</code> · <code>PostgreSQL</code>· <code>MySQL</code> · <code>Kubernetes</code> ·
+    <code>Kafka</code>
+    <br/>
+    <code>PostgreSQL</code> · <code>MySQL</code> · <code>Kubernetes</code> ·
     <code>Docker</code> ·  <code>AWS</code> 
   </p>
 

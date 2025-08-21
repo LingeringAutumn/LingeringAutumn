@@ -39,22 +39,30 @@
 
 <hr/>
 
-<!-- 关键：用表格稳稳对齐两张卡（可切换 theme，见下方注释） -->
+<!-- 关键：用表格稳稳对齐两张卡（已支持亮/暗自动切换） -->
 <table align="center">
   <tr>
     <td width="50%" valign="top">
       <!-- GitHub Stats -->
-      <img
-        alt="LingeringAutumn's GitHub Stats"
-        src="https://github-readme-stats.vercel.app/api?username=LingeringAutumn&show_icons=true&include_all_commits=true&count_private=true&rank_icon=github&line_height=26&hide_border=true&theme=tokyonight"
-        width="100%" />
+      <picture>
+        <source srcset="https://github-readme-stats.vercel.app/api?username=LingeringAutumn&show_icons=true&include_all_commits=true&count_private=true&rank_icon=github&line_height=26&hide_border=true&theme=tokyonight" media="(prefers-color-scheme: dark)" />
+        <source srcset="https://github-readme-stats.vercel.app/api?username=LingeringAutumn&show_icons=true&include_all_commits=true&count_private=true&rank_icon=github&line_height=26&hide_border=true&theme=algolia" media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)" />
+        <img
+          alt="LingeringAutumn's GitHub Stats"
+          src="https://github-readme-stats.vercel.app/api?username=LingeringAutumn&show_icons=true&include_all_commits=true&count_private=true&rank_icon=github&line_height=26&hide_border=true&theme=algolia"
+          width="100%" />
+      </picture>
     </td>
     <td width="50%" valign="top">
       <!-- Top Languages -->
-      <img
-        alt="Top Languages"
-        src="https://github-readme-stats.vercel.app/api/top-langs/?username=LingeringAutumn&layout=compact&langs_count=8&card_width=430&hide_border=true&theme=tokyonight"
-        width="100%" />
+      <picture>
+        <source srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=LingeringAutumn&layout=compact&langs_count=8&card_width=430&hide_border=true&theme=tokyonight" media="(prefers-color-scheme: dark)" />
+        <source srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=LingeringAutumn&layout=compact&langs_count=8&card_width=430&hide_border=true&theme=algolia" media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)" />
+        <img
+          alt="Top Languages"
+          src="https://github-readme-stats.vercel.app/api/top-langs/?username=LingeringAutumn&layout=compact&langs_count=8&card_width=430&hide_border=true&theme=algolia"
+          width="100%" />
+      </picture>
     </td>
   </tr>
 </table>
@@ -66,22 +74,26 @@
 
 ## Projects / 项目
 
-<!-- DomTok：左卡片+右文案，双语简介 -->
+<!-- DomTok：左卡片（自动亮暗） + 右文案，双语简介 -->
 <table>
   <tr>
     <td width="50%" valign="top">
       <a href="https://github.com/west2-online/DomTok">
-        <img
-          alt="DomTok"
-          src="https://github-readme-stats.vercel.app/api/pin/?username=west2-online&repo=DomTok&hide_border=true&theme=tokyonight"
-          width="100%" />
+        <picture>
+          <source srcset="https://github-readme-stats.vercel.app/api/pin/?username=west2-online&repo=DomTok&hide_border=true&theme=tokyonight" media="(prefers-color-scheme: dark)" />
+          <source srcset="https://github-readme-stats.vercel.app/api/pin/?username=west2-online&repo=DomTok&hide_border=true&theme=algolia" media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)" />
+          <img
+            alt="DomTok"
+            src="https://github-readme-stats.vercel.app/api/pin/?username=west2-online&repo=DomTok&hide_border=true&theme=algolia"
+            width="100%" />
+        </picture>
       </a>
     </td>
     <td width="50%" valign="top">
-      <b>DomTok</b> — 基于分布式架构，结合AI的电商平台<br/>
+      <b>DomTok</b> — 面向电商/内容场景的分布式后端（AI 加持）。<br/>
       - 技术栈：Go · Kitex · Hertz · Redis · Kafka · Docker<br/>
       <br/>
-      <b>DomTok</b> — E-commerce platform based on distributed architecture combined with AI.<br/>
+      <b>DomTok</b> — AI-enabled distributed backend for e-commerce/content scenarios.<br/>
       - Tech Stack: Go · Kitex · Hertz · Redis · Kafka · Docker<br/>
     </td>
   </tr>
@@ -106,12 +118,17 @@
 - ✉️ **联系我 / Reach me**  
   Email: <a href="mailto:LingeringAutumn@163.com">LingeringAutumn@163.com</a>
 
-<!-- 奖杯：暗色友好主题（见下方注释可切换） -->
+<!-- 奖杯：亮/暗自动切换；浅色用 flat，暗色用 tokyonight；背景启用以保证可读性 -->
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=LingeringAutumn&theme=tokyonight&no-bg=false&no-frame=true&column=6" alt="Trophies" />
+  <picture>
+    <source srcset="https://github-profile-trophy.vercel.app/?username=LingeringAutumn&theme=tokyonight&no-bg=false&no-frame=true&column=6" media="(prefers-color-scheme: dark)" />
+    <source srcset="https://github-profile-trophy.vercel.app/?username=LingeringAutumn&theme=flat&no-bg=false&no-frame=true&column=6" media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)" />
+    <img src="https://github-profile-trophy.vercel.app/?username=LingeringAutumn&theme=flat&no-bg=false&no-frame=true&column=6" alt="Trophies" />
+  </picture>
 </p>
 
 <p align="center"><sub>Cards update automatically. Minimal, aligned, and clean.</sub></p>
+
 
 <!-- ========== 主题/显示小贴士（可选，方便后续自己切换） ==========
 1) 统计卡片与语言卡片可切换主题：&theme=
@@ -131,4 +148,14 @@
 4) 两张卡片底边不齐：
    - 给两张 <img> 同时加相同 height，如 height="195"
    - 或减小右侧 card_width，避免一边内容过长
+5) 主题色示例
+  tokyonight：夜色霓虹风，蓝紫系暗色，高级感强，暗色模式下很和谐。
+  radical：紫粉+亮红，霓虹感强，对比度高，偏酷炫。
+  algolia：偏浅色、干净的蓝白系，清爽易读，浅色模式里很百搭。
+  merko：绿调暗色，颗粒感/黑客风一点点，暗色里观感稳。
+  gruvbox：复古大地色系（棕/橙/黄），护眼耐看，暗色友好。
+  dracula：经典暗紫系暗色主题，知名度高、可读性好。
+  monokai：老牌暗色代码配色（绿/黄/粉点缀），对比强，辨识度高。
+  calm：柔和、低饱和，有些卡片项目支持（如 Streak Stats），在官方 GitHub Readme Stats（GRS）里有时会回落到默认主题（取决于当前版本是否收录）。
+  transparent：透明背景，官方说明对 GitHub 默认的浅/深色主题都做了优化以保证可读性（适合两种模式切换）。
 ============================================================= -->

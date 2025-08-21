@@ -1,6 +1,6 @@
 <!-- title -->
 <h1 align="center">Hi there 👋 I'm LingeringAutumn</h1>
-<!-- p align="center">Clean • Minimal • Useful</p>
+<p align="center">Clean • Minimal • Useful</p>
 
 <!-- Intro: CN/EN bilingual, centered -->
 <div align="center">
@@ -15,22 +15,20 @@
   </p>
 
   <p>
-    <b>主要技术栈 · Tech Stack</b>
+    <b>主要技术栈 · Tech Stack</b><br/>
+    <code>Go</code> · <code>Python</code> · <code>Hertz</code> · <code>Kitex</code> · <code>Echo</code> ·
+    <code>gRPC</code> · <code>Redis</code> · <code>Kafka</code>
     <br/>
-    <code>Go</code> · 
-    <code>Python</code> · <code>Hertz</code> · <code>Kitex</code> · <code>Echo</code> ·
-    <code>gRPC</code> · <code>Redis</code> ·
-    <code>Kafka</code>
-    <br/>
-    <code>PostgreSQL</code> · <code>MySQL</code> · <code>Kubernetes</code> ·
-    <code>Docker</code> ·  <code>AWS</code> 
+    <code>PostgreSQL</code> · <code>MySQL</code> ·
+    <code>Kubernetes</code> · <code>Docker</code> · <code>AWS</code>
   </p>
 
   <p>
-    <b>近期方向 / Current focus：</b><br/>
-  <p>
-    分布式一致性、可观测性（Tracing/Logging/Metrics）、高并发性能优化。<br/>
-    Open to collaboration on backend infra & tooling.
+    <b>近期方向 / Current focus</b><br/>
+    分布式一致性、可观测性（Tracing / Logging / Metrics）、高并发与性能优化。<br/>
+    <i>Distributed consensus, observability (tracing / logging / metrics), and high-concurrency performance optimization.</i><br/>
+    欢迎在后端基础设施与工程效率工具方向开展合作。<br/>
+    <i>Open to collaboration on backend infra & developer tooling.</i>
   </p>
 
 </div>
@@ -58,18 +56,28 @@
 </table>
 
 <!-- 如果仍觉得两块底边不齐，请启用“等高版本”（把上面两张图替换为下面两张加了 height 的版本）：
-<img ... height="195" width="100%" />
-<img ... height="195" width="100%" />
+<img alt="..." src="..." height="195" width="100%" />
+<img alt="..." src="..." height="195" width="100%" />
 -->
 
-## About
-- 🔭 Working on: backend systems (Go, microservices, infra)
-- 🌱 Learning: distributed systems, performance tuning
-- ✉️ Reach me: LingeringAutumn@163.com
+## About / 关于
+
+- 🔭 **正在做 / Working on**  
+  后端系统与基础设施（Go、微服务、平台工程）。  
+  Backend systems & infrastructure (Go, microservices, platform engineering).
+
+- 🌱 **在学 / Learning**  
+  分布式系统、可观测性体系、性能调优与可靠性工程。  
+  Distributed systems, observability, performance tuning & reliability engineering.
+
+- 🧩 **兴趣 / Interests**  
+  设计可扩展架构、极简可维护代码、DevOps 自动化与工程效率工具。  
+  Scalable architectures, clean & maintainable code, DevOps automation & developer productivity tools.
+
+- ✉️ **联系我 / Reach me**  
+  Email: <a href="mailto:LingeringAutumn@163.com">LingeringAutumn@163.com</a>
 
 <!-- 可选：极简奖杯（看起来像“评分”总览），不花哨的扁平风 -->
 <p align="center">
   <img src="https://github-profile-trophy.vercel.app/?username=LingeringAutumn&theme=flat&no-bg=true&no-frame=true&column=6" alt="Trophies" />
 </p>
-
-<p align="center"><sub>Cards update automatically. Minimal, aligned, and clean.</sub></p>

@@ -78,15 +78,11 @@
       </a>
     </td>
     <td width="50%" valign="top">
-      <b>DomTok</b> — 电商/内容平台的分布式后端基座（含支付模块与完整工程实践）。<br/>
-      - 架构：Go · gRPC · PostgreSQL · Redis · Kafka · Docker（可模块化部署）<br/>
-      - 能力：AI 加持、全链路追踪与监控、日志体系、CI/CD、可观测性完善<br/>
-      - 我的角色：<i>负责 Payment 模块的基建、接口与测试</i><br/>
+      <b>DomTok</b> — 基于分布式架构，结合AI的电商平台<br/>
+      - 技术栈：Go · Kitex · Hertz · Redis · Kafka · Docker<br/>
       <br/>
-      <b>DomTok</b> — A distributed backend foundation for e-commerce/content scenarios (with a full payment module and engineering practices).<br/>
-      - Stack: Go · gRPC · PostgreSQL · Redis · Kafka · Docker (modular deployment)<br/>
-      - Capabilities: AI-enabled, end-to-end tracing/monitoring, logging, CI/CD, strong observability<br/>
-      - My role: <i>Infrastructure & API/tests for the Payment module</i>
+      <b>DomTok</b> — E-commerce platform based on distributed architecture combined with AI.<br/>
+      - Tech Stack: Go · Kitex · Hertz · Redis · Kafka · Docker<br/>
     </td>
   </tr>
 </table>

@@ -24,7 +24,7 @@
     <code>gRPC</code> · <code>Redis</code> · <code>Kafka</code>
     <br/>
     <code>PostgreSQL</code> · <code>MySQL</code> ·
-    <code>Kubernetes</code> · <code>Docker</code> · <code>AWS</code>
+    <code>Kubernetes</code> · <code>Etcd</code> · <code>Docker</code> · <code>AWS</code>
   </p>
 
   <p>

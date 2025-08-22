@@ -46,16 +46,16 @@
       <!-- GitHub Stats -->
       <picture>
         <source srcset="https://github-readme-stats.vercel.app/api?username=LingeringAutumn&show_icons=true&include_all_commits=true&count_private=true&rank_icon=github&line_height=26&hide_border=true&theme=tokyonight" media="(prefers-color-scheme: dark)" />
-        <source srcset="https://github-readme-stats.vercel.app/api?username=LingeringAutumn&show_icons=true&include_all_commits=true&count_private=true&rank_icon=github&line_height=26&hide_border=true&theme=algolia" media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)" />
-        <img alt="LingeringAutumn's GitHub Stats" src="https://github-readme-stats.vercel.app/api?username=LingeringAutumn&show_icons=true&include_all_commits=true&count_private=true&rank_icon=github&line_height=26&hide_border=true&theme=algolia" width="100%" />
+        <source srcset="https://github-readme-stats.vercel.app/api?username=LingeringAutumn&show_icons=true&include_all_commits=true&count_private=true&rank_icon=github&line_height=26&hide_border=true&theme=flat" media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)" />
+        <img alt="LingeringAutumn's GitHub Stats" src="https://github-readme-stats.vercel.app/api?username=LingeringAutumn&show_icons=true&include_all_commits=true&count_private=true&rank_icon=github&line_height=26&hide_border=true&theme=flat" width="100%" />
       </picture>
     </td>
     <td width="50%" valign="top">
       <!-- Top Languages -->
       <picture>
         <source srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=LingeringAutumn&layout=compact&langs_count=8&card_width=430&hide_border=true&theme=tokyonight" media="(prefers-color-scheme: dark)" />
-        <source srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=LingeringAutumn&layout=compact&langs_count=8&card_width=430&hide_border=true&theme=algolia" media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)" />
-        <img alt="Top Languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=LingeringAutumn&layout=compact&langs_count=8&card_width=430&hide_border=true&theme=algolia" width="100%" />
+        <source srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=LingeringAutumn&layout=compact&langs_count=8&card_width=430&hide_border=true&theme=flat" media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)" />
+        <img alt="Top Languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=LingeringAutumn&layout=compact&langs_count=8&card_width=430&hide_border=true&theme=flat" width="100%" />
       </picture>
     </td>
   </tr>
@@ -72,8 +72,8 @@
         <!-- DomTok pinned：同样用 <picture> 自动切换 -->
         <picture>
           <source srcset="https://github-readme-stats.vercel.app/api/pin/?username=west2-online&repo=DomTok&hide_border=true&theme=tokyonight" media="(prefers-color-scheme: dark)" />
-          <source srcset="https://github-readme-stats.vercel.app/api/pin/?username=west2-online&repo=DomTok&hide_border=true&theme=algolia" media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)" />
-          <img alt="DomTok" src="https://github-readme-stats.vercel.app/api/pin/?username=west2-online&repo=DomTok&hide_border=true&theme=algolia" width="100%" />
+          <source srcset="https://github-readme-stats.vercel.app/api/pin/?username=west2-online&repo=DomTok&hide_border=true&theme=flat" media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)" />
+          <img alt="DomTok" src="https://github-readme-stats.vercel.app/api/pin/?username=west2-online&repo=DomTok&hide_border=true&theme=flat" width="100%" />
         </picture>
       </a>
     </td>

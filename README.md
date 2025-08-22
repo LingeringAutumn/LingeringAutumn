@@ -39,40 +39,24 @@
 
 <hr/>
 
-<!-- 两张卡片：用 GitHub 主题上下文 #gh-*-mode-only 实现自动切换 -->
+<!-- 两张卡片：用 <picture> + prefers-color-scheme 自动切换 -->
 <table align="center">
   <tr>
     <td width="50%" valign="top">
-      <!-- Stats: dark -->
-      <a href="https://github.com/LingeringAutumn#gh-dark-mode-only">
-        <img
-          alt="LingeringAutumn's GitHub Stats"
-          src="https://github-readme-stats.vercel.app/api?username=LingeringAutumn&show_icons=true&include_all_commits=true&count_private=true&rank_icon=github&line_height=26&hide_border=true&theme=tokyonight#gh-dark-mode-only"
-          width="100%" />
-      </a>
-      <!-- Stats: light -->
-      <a href="https://github.com/LingeringAutumn#gh-light-mode-only">
-        <img
-          alt="LingeringAutumn's GitHub Stats"
-          src="https://github-readme-stats.vercel.app/api?username=LingeringAutumn&show_icons=true&include_all_commits=true&count_private=true&rank_icon=github&line_height=26&hide_border=true&theme=algolia#gh-light-mode-only"
-          width="100%" />
-      </a>
+      <!-- GitHub Stats -->
+      <picture>
+        <source srcset="https://github-readme-stats.vercel.app/api?username=LingeringAutumn&show_icons=true&include_all_commits=true&count_private=true&rank_icon=github&line_height=26&hide_border=true&theme=tokyonight" media="(prefers-color-scheme: dark)" />
+        <source srcset="https://github-readme-stats.vercel.app/api?username=LingeringAutumn&show_icons=true&include_all_commits=true&count_private=true&rank_icon=github&line_height=26&hide_border=true&theme=algolia" media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)" />
+        <img alt="LingeringAutumn's GitHub Stats" src="https://github-readme-stats.vercel.app/api?username=LingeringAutumn&show_icons=true&include_all_commits=true&count_private=true&rank_icon=github&line_height=26&hide_border=true&theme=algolia" width="100%" />
+      </picture>
     </td>
     <td width="50%" valign="top">
-      <!-- Top Langs: dark -->
-      <a href="https://github.com/LingeringAutumn#gh-dark-mode-only">
-        <img
-          alt="Top Languages"
-          src="https://github-readme-stats.vercel.app/api/top-langs/?username=LingeringAutumn&layout=compact&langs_count=8&card_width=430&hide_border=true&theme=tokyonight#gh-dark-mode-only"
-          width="100%" />
-      </a>
-      <!-- Top Langs: light -->
-      <a href="https://github.com/LingeringAutumn#gh-light-mode-only">
-        <img
-          alt="Top Languages"
-          src="https://github-readme-stats.vercel.app/api/top-langs/?username=LingeringAutumn&layout=compact&langs_count=8&card_width=430&hide_border=true&theme=algolia#gh-light-mode-only"
-          width="100%" />
-      </a>
+      <!-- Top Languages -->
+      <picture>
+        <source srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=LingeringAutumn&layout=compact&langs_count=8&card_width=430&hide_border=true&theme=tokyonight" media="(prefers-color-scheme: dark)" />
+        <source srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=LingeringAutumn&layout=compact&langs_count=8&card_width=430&hide_border=true&theme=algolia" media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)" />
+        <img alt="Top Languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=LingeringAutumn&layout=compact&langs_count=8&card_width=430&hide_border=true&theme=algolia" width="100%" />
+      </picture>
     </td>
   </tr>
 </table>
@@ -84,24 +68,20 @@
 <table>
   <tr>
     <td width="50%" valign="top">
-      <a href="https://github.com/west2-online/DomTok#gh-dark-mode-only">
-        <img
-          alt="DomTok"
-          src="https://github-readme-stats.vercel.app/api/pin/?username=west2-online&repo=DomTok&hide_border=true&theme=tokyonight#gh-dark-mode-only"
-          width="100%" />
-      </a>
-      <a href="https://github.com/west2-online/DomTok#gh-light-mode-only">
-        <img
-          alt="DomTok"
-          src="https://github-readme-stats.vercel.app/api/pin/?username=west2-online&repo=DomTok&hide_border=true&theme=algolia#gh-light-mode-only"
-          width="100%" />
+      <a href="https://github.com/west2-online/DomTok">
+        <!-- DomTok pinned：同样用 <picture> 自动切换 -->
+        <picture>
+          <source srcset="https://github-readme-stats.vercel.app/api/pin/?username=west2-online&repo=DomTok&hide_border=true&theme=tokyonight" media="(prefers-color-scheme: dark)" />
+          <source srcset="https://github-readme-stats.vercel.app/api/pin/?username=west2-online&repo=DomTok&hide_border=true&theme=algolia" media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)" />
+          <img alt="DomTok" src="https://github-readme-stats.vercel.app/api/pin/?username=west2-online&repo=DomTok&hide_border=true&theme=algolia" width="100%" />
+        </picture>
       </a>
     </td>
     <td width="50%" valign="top">
-      <b>DomTok</b> — 面向电商/内容场景的分布式后端（AI 赋能）。<br/>
+      <b>DomTok</b> — 面向电商/内容场景的 <i>分布式后端</i>（AI 赋能）。<br/>
       - 技术栈：Go · Kitex · Hertz · Redis · Kafka · Docker<br/>
       <br/>
-      <b>DomTok</b> — AI-enabled distributed backend for e-commerce/content scenarios.<br/>
+      <b>DomTok</b> — An <i>AI-enabled distributed backend</i> for e-commerce/content scenarios.<br/>
       - Tech Stack: Go · Kitex · Hertz · Redis · Kafka · Docker<br/>
     </td>
   </tr>
@@ -126,7 +106,7 @@
 - ✉️ **联系我 / Reach me**  
   Email: <a href="mailto:LingeringAutumn@163.com">LingeringAutumn@163.com</a>
 
-<!-- 奖杯：你之前已成功；保持不变或同样用上下文写法 -->
+<!-- 奖杯：保持你的可用版本（它已经是 <picture>，可自动切换） -->
 <p align="center">
   <picture>
     <source srcset="https://github-profile-trophy.vercel.app/?username=LingeringAutumn&theme=tokyonight&no-bg=false&no-frame=true&column=6" media="(prefers-color-scheme: dark)" />

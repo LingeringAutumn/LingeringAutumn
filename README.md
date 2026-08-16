@@ -3,6 +3,8 @@
 </p>
 
 <p align="center">
+  <a href="https://github.com/west2-online">West2 Online</a>
+  ·
   <a href="https://github.com/west2-online/DomTok">DomTok</a>
   ·
   <a href="https://github.com/LingeringAutumn?tab=repositories">All repositories</a>
@@ -13,6 +15,12 @@ I am **LingeringAutumn**, a systems-focused developer working across low-latency
 | Now | Previously | Interested in |
 | --- | --- | --- |
 | Building ML infrastructure for embodied VLM/VLA development | Database platform engineering for managed relational databases | Opportunities in **AI Infra, Go backend, and agent engineering** |
+
+## Community
+
+**[West2 Online / 西二在线](https://github.com/west2-online) · Go Group**
+
+Member of the Go group, building backend and infrastructure projects through collaborative development and open-source practice. Contributed to **[DomTok](https://github.com/west2-online/DomTok)**, an AI-enabled distributed e-commerce backend.
 
 ## Selected engineering impact
 

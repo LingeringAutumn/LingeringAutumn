@@ -1,0 +1,87 @@
+<svg width="1200" height="320" viewBox="0 0 1200 320" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">LingeringAutumn — Go Backend, AI Infra, Agent Systems</title>
+  <desc id="desc">A systems signal-flow banner for LingeringAutumn's GitHub profile</desc>
+
+  <defs>
+    <linearGradient id="background" x1="24" y1="18" x2="1170" y2="302" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#07111F"/>
+      <stop offset="0.58" stop-color="#0B1930"/>
+      <stop offset="1" stop-color="#161536"/>
+    </linearGradient>
+    <linearGradient id="signal" x1="78" y1="0" x2="1118" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#2DD4BF"/>
+      <stop offset="0.5" stop-color="#60A5FA"/>
+      <stop offset="1" stop-color="#A78BFA"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0" cy="0" r="1" gradientTransform="translate(986 65) rotate(126) scale(310 245)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#7C3AED" stop-opacity="0.30"/>
+      <stop offset="1" stop-color="#7C3AED" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" stroke="#94A3B8" stroke-opacity="0.075"/>
+    </pattern>
+    <filter id="nodeGlow" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="5"/>
+    </filter>
+  </defs>
+
+  <rect x="1" y="1" width="1198" height="318" rx="24" fill="url(#background)" stroke="#334155" stroke-width="2"/>
+  <rect x="2" y="2" width="1196" height="316" rx="23" fill="url(#grid)"/>
+  <rect x="2" y="2" width="1196" height="316" rx="23" fill="url(#glow)"/>
+
+  <g transform="translate(62 48)">
+    <circle cx="5" cy="5" r="5" fill="#34D399"/>
+    <text x="22" y="10" fill="#94A3B8" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="12" letter-spacing="2">LINGERINGAUTUMN / ONLINE</text>
+
+    <text x="0" y="80" fill="#F8FAFC" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="52" font-weight="700" letter-spacing="-1.4">LingeringAutumn</text>
+    <rect x="0" y="113" width="430" height="4" rx="2" fill="url(#signal)"/>
+    <text x="0" y="157" fill="#DCE7F6" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="16" letter-spacing="1.5">GO BACKEND  /  AI INFRA  /  AGENT SYSTEMS</text>
+    <text x="0" y="198" fill="#7F8EA3" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13" letter-spacing="0.4">SYSTEMS ENGINEERING · RELIABILITY · PERFORMANCE</text>
+  </g>
+
+  <g transform="translate(650 50)">
+    <text x="0" y="8" fill="#64748B" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="10" letter-spacing="1.8">SYSTEM SIGNALS</text>
+
+    <g transform="translate(0 48)">
+      <text x="0" y="5" fill="#5EEAD4" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="11" letter-spacing="1.5">SERVE</text>
+      <path d="M78 0H452" stroke="#2DD4BF" stroke-opacity="0.55" stroke-width="2"/>
+      <circle cx="116" r="12" fill="#2DD4BF" fill-opacity="0.10" stroke="#2DD4BF"/>
+      <circle cx="116" r="5" fill="#2DD4BF" filter="url(#nodeGlow)"/>
+      <circle cx="263" r="12" fill="#60A5FA" fill-opacity="0.10" stroke="#60A5FA"/>
+      <circle cx="263" r="5" fill="#60A5FA"/>
+      <circle cx="410" r="12" fill="#A78BFA" fill-opacity="0.10" stroke="#A78BFA"/>
+      <circle cx="410" r="5" fill="#A78BFA"/>
+      <text x="92" y="30" fill="#94A3B8" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="9">PREFIX</text>
+      <text x="244" y="30" fill="#94A3B8" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="9">KV</text>
+      <text x="393" y="30" fill="#94A3B8" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="9">TTFT</text>
+    </g>
+
+    <g transform="translate(0 124)">
+      <text x="0" y="5" fill="#93C5FD" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="11" letter-spacing="1.5">TRAIN</text>
+      <path d="M78 0H452" stroke="#60A5FA" stroke-opacity="0.55" stroke-width="2"/>
+      <circle cx="116" r="12" fill="#2DD4BF" fill-opacity="0.10" stroke="#2DD4BF"/>
+      <circle cx="116" r="5" fill="#2DD4BF"/>
+      <circle cx="263" r="12" fill="#60A5FA" fill-opacity="0.10" stroke="#60A5FA"/>
+      <circle cx="263" r="5" fill="#60A5FA" filter="url(#nodeGlow)"/>
+      <circle cx="410" r="12" fill="#A78BFA" fill-opacity="0.10" stroke="#A78BFA"/>
+      <circle cx="410" r="5" fill="#A78BFA"/>
+      <text x="89" y="30" fill="#94A3B8" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="9">SNAPSHOT</text>
+      <text x="249" y="30" fill="#94A3B8" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="9">NVME</text>
+      <text x="388" y="30" fill="#94A3B8" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="9">RESTORE</text>
+    </g>
+
+    <g transform="translate(0 200)">
+      <text x="0" y="5" fill="#C4B5FD" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="11" letter-spacing="1.5">REASON</text>
+      <path d="M78 0H452" stroke="#A78BFA" stroke-opacity="0.55" stroke-width="2"/>
+      <circle cx="116" r="12" fill="#2DD4BF" fill-opacity="0.10" stroke="#2DD4BF"/>
+      <circle cx="116" r="5" fill="#2DD4BF"/>
+      <circle cx="263" r="12" fill="#60A5FA" fill-opacity="0.10" stroke="#60A5FA"/>
+      <circle cx="263" r="5" fill="#60A5FA"/>
+      <circle cx="410" r="12" fill="#A78BFA" fill-opacity="0.10" stroke="#A78BFA"/>
+      <circle cx="410" r="5" fill="#A78BFA" filter="url(#nodeGlow)"/>
+      <text x="106" y="30" fill="#94A3B8" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="9">MCP</text>
+      <text x="239" y="30" fill="#94A3B8" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="9">EVIDENCE</text>
+      <text x="401" y="30" fill="#94A3B8" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="9">RAG</text>
+    </g>
+  </g>
+</svg>

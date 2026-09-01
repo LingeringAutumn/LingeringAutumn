@@ -37,6 +37,10 @@ Member of the Go group, building backend and infrastructure projects through col
 
 An AI-enabled distributed e-commerce backend built with **Go, Kitex, Hertz, Redis, Kafka, OpenTelemetry, and Docker**. The project won **1st place in the 2025 ByteDance Youth Training Camp backend track** and includes clean architecture, service observability, CI, tests, and an LLM function-calling workflow.
 
+### [MeetMemo](https://github.com/LingeringAutumn/MeetMemo)
+
+An unofficial noncommercial fork of [abcwyc/MeetMemo](https://github.com/abcwyc/MeetMemo). I focused on dual-audio timeline continuity, deterministic recording finalization, STT provider lifecycle safety, and local macOS build tooling.
+
 ### [MIT 6.5840 — MapReduce](https://github.com/LingeringAutumn/MIT_6_5840)
 
 A Go implementation of the MIT 6.5840 MapReduce lab, covering coordinator/worker RPC, task scheduling, timeout recovery, concurrent execution, and fault handling.
